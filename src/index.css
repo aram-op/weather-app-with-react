@@ -1,0 +1,25 @@
+:root {
+    --main-background-color: #d9eef2;
+    --unit-change-btn-color: rgba(118, 134, 136, 0.11);
+    --main-font: "Public Sans", sans-serif;
+    --main-font-color: #282d41;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-font-color);
+    display: flex;
+    font-family: var(--main-font);
+    justify-content: center;
+    padding: 10vh 5vw;
+}

@@ -1,0 +1,23 @@
+.unit-change-btn {
+    align-self: end;
+    background-color: var(--unit-change-btn-color);
+    border: none;
+    border-radius: 20px;
+    color: var(--main-font-color);
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.1s;
+}
+
+.unit-change-btn:hover {
+    background-color: rgba(118, 134, 136, 0.2);
+    transition: 0.1s;
+}
+
+@media only screen and (max-width: 600px) {
+    .unit-change-btn {
+        font-size: 12px;
+        padding: 3px 7px;
+        text-wrap: wrap;
+    }
+}
