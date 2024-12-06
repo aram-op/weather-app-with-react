@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeUnitButton renders correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="unit-change-btn"
+  >
+    Change Unit
+  </button>
+</DocumentFragment>
+`;
+
+exports[`ChangeUnitButton should render correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="unit-change-btn"
+  >
+    Change Unit
+  </button>
+</DocumentFragment>
+`;

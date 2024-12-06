@@ -29,7 +29,7 @@ function App() {
 
     return (
         <div className="container">
-            <ChangeUnitButton onButtonClicked={handleUnitChange}/>
+            <ChangeUnitButton onUnitChange={handleUnitChange}/>
             <CurrentWeather unit={unit} key={`current weather ${unit}`} onError={handleError}/>
             <Forecast unit={unit} key={`forecast ${unit}`} onError={handleError}/>
         </div>

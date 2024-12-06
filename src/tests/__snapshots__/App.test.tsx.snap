@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <button>
+      Change Unit
+    </button>
+    <div>
+      Current Weather, unit = metric
+    </div>
+    <button>
+      Trigger error
+    </button>
+    <div>
+      Forecast
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders ChangeUnitButton, CurrentWeather and Forecast components 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <button
+      class="unit-change-btn"
+    >
+      Change Unit
+    </button>
+    <div
+      class="forecast-container"
+    />
+  </div>
+</div>
+`;

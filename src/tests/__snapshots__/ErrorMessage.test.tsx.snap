@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <h2
+    class="error-message"
+  >
+    Terrifying error occurred
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`ErrorMessage should match snapshot 1`] = `
+<DocumentFragment>
+  <h2
+    class="error-message"
+  >
+    Terrifying error occurred
+  </h2>
+</DocumentFragment>
+`;
